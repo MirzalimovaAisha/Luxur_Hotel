@@ -271,13 +271,12 @@ export const RightArrow = styled.img`
 `;
 
 export const ContactButton = styled.button`
-    height: 40px;
-    width: 100px;
+    font-size: 25px;
     border: none;
     border-radius: 6px;
     color: white;
     background-color: #e0b973;
-    font-size: 17px;
+    padding: 24px 25px;
     cursor: pointer;
 `;
 
@@ -355,4 +354,57 @@ export const YellowButton = styled.div`
     background: #e0b973;
     padding: 25px 45px;
     border-radius: 15px;
+`;
+
+export const Contact_us = styled.div`
+    margin-top: 261px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`;
+export const ContactContainer = styled.div`
+    display: flex;
+    margin-top: 100px;
+    gap: 280px;
+    form {
+        width: 570px;
+    }
+    input {
+        width: 570px;
+        margin-bottom: 20px;
+        height: 40px;
+    }
+    label {
+        color: #14274a;
+        font-family: Arial;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+`;
+export const ContactTitle = styled.div`
+    color: #14274a;
+    font-family: "EB Garamond", serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+`;
+export const ContactSubTitle = styled.div`
+    color: #14274a;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+`;
+
+export const ContactTexts = styled.div`
+    color: #14274a;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 `;
